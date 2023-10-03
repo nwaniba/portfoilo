@@ -40,10 +40,25 @@ ul {
     background-color: #111;
     color: #fff !important;
   }
+  .cta{
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 10px 15px !important;
+    background-color: #111;
+    color: white;
+}
+.cta:hover{
+  background-color: white;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: #111;
+}
 
 /*body{
     overflow: hidden;
-} */
+}*/
 .box{
     background-color: azure;
 }
@@ -68,26 +83,6 @@ ul {
 }
  body hr{
   border-top: 3px solid;
-}
-.alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
 }
 
 .wordpress {
