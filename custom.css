@@ -99,3 +99,10 @@ a{
 .badge{
     border-radius: 70%;
 }
+.over:hover{
+  background-color: #111;
+    color: #fff !important;
+}
+.ver:hover{
+  text-decoration: solid underline;
+}
