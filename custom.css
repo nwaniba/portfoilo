@@ -106,3 +106,9 @@ a{
 .ver:hover{
   text-decoration: solid underline;
 }
+.hide{
+  display: none;
+}
+.ver:hover+ .hide{
+  display: inline;
+}
